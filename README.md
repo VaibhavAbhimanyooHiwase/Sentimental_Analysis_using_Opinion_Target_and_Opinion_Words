@@ -1,4 +1,4 @@
-# Sentimental_Analysis_Using_Opinion_Target_and_Opinion_words.
+# Sentimental Analysis using Opinion Target and Opinion Words.
 This project aim to target sentiment analysis based on opinion words (like good, bad, beautiful, wrong, best, awesome, etc) of selected opinion target ( like product name for amazon product reviews). The code provides steps of pre-processing like stopword removal, removal of duplicates in the review, spelling correction, etc.
   From the review biwords and triwords are generated for each reviewed text and use it to generate 8 patterns from rule-based method (by POS tagging). Opinion target and their opinion words are extracted using these 8 patterns. 
     The extracted opinion words gets polarity directly from TextBlob library using polarity function of sentiment class. This polarity is generated for every opinion word in every reviewed text, and the highest magnitude polarity word is selected from every reviewed text.
